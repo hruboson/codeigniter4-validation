@@ -34,7 +34,7 @@ $routes->setAutoRoute(true);
 // route since we don't have to scan directories.
 $routes->get('/', 'MainController::index');
 $routes->get('/form', 'FormController::index');
-$routes->post('/form/validate', 'FormController::validateIndex');
+$routes->post('/validate', 'FormController::validateIndex');
 
 /*
  * --------------------------------------------------------------------
